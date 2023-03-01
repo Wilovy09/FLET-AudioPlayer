@@ -16,16 +16,15 @@ The work is not finished yet, it is just beginning and work is being done on the
 
 ### Old Orbus Music Player
 
-![orbusconsole](.\images\orbusmusic.jpg "Console Banner")
+![orbusconsole](./images/orbusmusic.jpg "Console Banner")
 
 ### New Orbus Music Player
 
-![orbusplayer](.\images\mainpage.jpg)
 ![orbusplayer](./images/mainpage.jpg)
-![orbusplayer](.\images\playlistspage.jpg)
+![orbusplayer](./images/playlistspage.jpg)
 
-![orbusplayer](.\images\contactpage.jpg)
-![orbusplayer](.\images\playingsongpage.jpg)
+![orbusplayer](./images/contactpage.jpg)
+![orbusplayer](./images/playingsongpage.jpg)
 
-![orbusplayer](.\images\configpage.jpg)
-![orbusplayer](.\images\searchpage.jpg)
+![orbusplayer](./images/configpage.jpg)
+![orbusplayer](./images/searchpage.jpg)
