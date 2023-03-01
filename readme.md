@@ -21,6 +21,7 @@ The work is not finished yet, it is just beginning and work is being done on the
 ### New Orbus Music Player
 
 ![orbusplayer](.\images\mainpage.jpg)
+![orbusplayer](./images/mainpage.jpg)
 ![orbusplayer](.\images\playlistspage.jpg)
 
 ![orbusplayer](.\images\contactpage.jpg)
