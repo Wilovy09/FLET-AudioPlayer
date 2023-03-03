@@ -17,9 +17,6 @@ def main(page: Page):
     page.window_resizable = False
     page.title = 'Orbus Player'
 
-
-    # page.overlay.append(audio1)
-
     def audio1():
         Audio(
         src=url,
@@ -28,25 +25,20 @@ def main(page: Page):
         balance=0
     )
 
+    page.overlay.append(audio1)
+    
     def volume_down(_):
         audio1.volume -= 0.1
         audio1.update()
-        print(audio1.volume)
-
     def volume_up(_):
         audio1.volume += 0.1
         audio1.update()
-        print(audio1.volume)
-
     def balance_left(_):
         audio1.balance -= 0.1
         audio1.update()
-        print(audio1.balance)
-
     def balance_right(_):
         audio1.balance += 0.1
         audio1.update()
-        print(audio1.balance)
 
     def _playmusic_():
         return View(
@@ -78,7 +70,7 @@ def main(page: Page):
                                 Row([
                                     IconButton(
                                         icon=ft.icons.PLAY_ARROW,
-                                        on_click=lambda _: audio1.play(),
+                                        on_click=lambda _: audio1.resume(),
                                     ),
                                     IconButton(
                                         icon=ft.icons.PAUSE,
@@ -137,8 +129,6 @@ def main(page: Page):
     page.on_route_change = route_change
     page.on_view_pop = view_pop
     page.go(page.route)
-
-    # page.overlay.append(audio1)
 
     page.views.append(play_music)
     page.views.append(search)
